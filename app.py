@@ -5,10 +5,9 @@ app = Flask(__name__)
 
 # list of cat images
 images = [
-    "https://img.buzzfeed.com/buzzfeed-static/static/2015-11/2/13/enhanced/webdr11/anigif_enhanced-6320-1446488067-2.gif",
-    "https://img.buzzfeed.com/buzzfeed-static/static/2013-10/enhanced/webdr06/15/10/anigif_enhanced-buzz-29111-1381845968-0.gif",
-    "https://img.buzzfeed.com/buzzfeed-static/static/2015-11/2/11/enhanced/webdr11/anigif_enhanced-19123-1446482575-20.gif",
-    "https://img.buzzfeed.com/buzzfeed-static/static/2015-11/2/11/enhanced/webdr09/anigif_enhanced-22830-1446482729-4.gif?"
+    "https://stordevsumj.blob.core.windows.net/easec/cats%2Fcat1.gif",
+    "https://stordevsumj.blob.core.windows.net/easec/cats%2Fcat2.gif",
+    "https://stordevsumj.blob.core.windows.net/easec/cats%2Fcat3.gif?"
 ]
 
 @app.route('/')
