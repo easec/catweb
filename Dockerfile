@@ -8,8 +8,7 @@ RUN pip install --no-cache-dir -r /usr/src/app/requirements.txt
 
 # Kopiera filer
 COPY app.py /usr/src/app/
-COPY templates/index.html
-/usr/src/app/templates/
+COPY templates/index.html /usr/src/app/templates/
 
 # Exponering av port f app
 EXPOSE 5000
