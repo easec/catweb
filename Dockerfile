@@ -4,8 +4,7 @@ LABEL maintainer="<din_e-postadress>"
 
 # Installera Pythonmoduler
 COPY requirements.txt /usr/src/app/
-RUN pip install --no-cache-dir -r
-/usr/src/app/requirements.txt
+RUN pip install --no-cache-dir -r /usr/src/app/requirements.txt
 
 # Kopiera filer
 COPY app.py /usr/src/app/
